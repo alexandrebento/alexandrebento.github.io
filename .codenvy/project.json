@@ -1,1 +1,1 @@
-{"mixinTypes":["contribution"],"builders":{"configs":{}},"runners":{"configs":{}},"description":"Website source code.","type":"blank","attributes":{"contribute_branch":["master"],"contribute_mode":["contribute"]}}
+{"mixinTypes":[],"builders":{"configs":{}},"runners":{"configs":{"project:/ENV-alex":{"ram":100,"variables":{"configurationType":"blank"},"options":{}}}},"description":"Website source code.","type":"blank","attributes":{}}
