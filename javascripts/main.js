@@ -1,3 +1,6 @@
 $(document).ready(function(){
-  confirm('Really Loaded?');
+  confirm('Really Really?');
+  $('.logo').click(function(){
+    this.fadeOut('slow');
+  });
 });
