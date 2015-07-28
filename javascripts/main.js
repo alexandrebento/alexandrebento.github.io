@@ -1,6 +1,6 @@
 $(document).ready(function(){
   confirm('Really Really?');
-  $('.logo').click(function(){
+  $('div').click(function(){
     this.fadeOut('slow');
   });
 });
