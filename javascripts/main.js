@@ -1,5 +1,5 @@
 confirm("Loaded!");
 
-$(".orb").click(function(){
+$(".logo").click(function(){
   this.fadeOut(500);
 });
