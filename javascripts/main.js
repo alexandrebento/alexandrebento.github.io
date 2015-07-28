@@ -1,6 +1,6 @@
 $(document).ready(function(){
   confirm('2');
-  $('.logo').click(function(){
+  $('img').click(function(){
     $(this).effect('bounce',{times:3},300);
     $(this).css('box-shadow','10px 10px 5px yellow');
   });
