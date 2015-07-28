@@ -1,6 +1,6 @@
 $(document).ready(function(){
   confirm('Really Really?');
-  $('div').click(function(){
-    $(this).css("color", "yellow");
+  $('.logo').click(function(){
+    $(this)..effect('bounce',{times:3},300);
   });
 });
