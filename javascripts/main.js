@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('div.orb').click(function(){
+    $('div').click(function(){
         $(this).effect('bounce', {times:3}, 500);    
     });
 });
