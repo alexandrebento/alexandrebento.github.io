@@ -1,3 +1,1 @@
-$(document).ready(function(){
-    confirm("Loaded!");
-});
+confirm("Loaded!");
