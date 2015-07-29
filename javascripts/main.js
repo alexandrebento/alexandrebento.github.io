@@ -1,7 +1,8 @@
-
-  $("div").toggle(function () {
-      $("div").css({color: "black"});
+$(document).ready(function(){
+  $("body").toggle(function () {
+      $("body").css({color: "black"});
   }, function () {
-      $("div").css({color: "yellow"});
+      $("body").css({color: "yellow"});
   });
   confirm('11');
+});
