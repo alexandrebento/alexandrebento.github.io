@@ -1,4 +1,6 @@
 $(document).ready(function(){
-$('.js').toggle( "bounce", { times: 3 }, "slow" );
-  confirm('1231');
+$('.js').click(function() {
+  $(this).toggle( "bounce", { times: 3 }, "slow" );
+});
+  confirm('1');
 });
