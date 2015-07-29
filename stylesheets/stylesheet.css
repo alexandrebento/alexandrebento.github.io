@@ -47,7 +47,9 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     margin-top: -250px;
     margin-left: -250px;
-
+    width: 500px;
+    height: 500px;
+    
     border-width: 2px;
     border-style: dotted;
     border-color: white;
