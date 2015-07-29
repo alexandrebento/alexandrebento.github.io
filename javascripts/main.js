@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $(".js").toggle(function () {
-      $(this).css({color: "black"});
+      $(this).css({margin: 0px 0px});
   }, function () {
-      $(this).css({color: "yellow"});
+      $(this).css({margin: 50px 50px});
   });
   confirm('121');
 });
