@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(".js").click(function(){
      $(this).css( "background", "yellow" );
-     $(this).effect("bounce",{times:3},"slow");
+     $(this).toggle("bounce",{times:3},"slow");
   });
-  confirm('1');
+  confirm('2');
 });
