@@ -1,7 +1,8 @@
 $(document).ready(function(){
-  $('div').click(function(){
-    $('div').effect('bounce',{times:3},300);
-    $('div').css('color','yellow');
+  $("div").toggle(function () {
+      $("div").css({color: "black"});
+  }, function () {
+      $("div").css({color: "yellow"});
   });
-  confirm('1');
+  confirm('11');
 });
