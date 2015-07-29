@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $("#ide").click(function(){
-     $(this).effect( "bounce", {times:3}, 300 );
+     $(this).css( "background", "black" );
   });
-  confirm('13');
+  confirm('213');
 });
