@@ -41,16 +41,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -25px;
 }
 
-#earth-orbit {
+#orbit {
     position: fixed;
     top: 530px;
     left: 50%;
 
-    margin-left: -500px;
-    margin-top: -500px;
+    margin-left: -525px;
+    margin-top: -525px;
     
-    width: 1000px;
-    height: 1000px;
+    width: 1050px;
+    height: 1050px;
     
     border-width: 2px;
     border-style: dotted;
