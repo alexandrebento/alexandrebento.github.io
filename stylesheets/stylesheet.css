@@ -43,14 +43,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #orbit {
     position: fixed;
-    top: 530px;
+    top: 565px;
     left: 50%;
 
-    margin-left: -525px;
-    margin-top: -525px;
+    margin-left: -530px;
+    margin-top: -530px;
     
-    width: 1050px;
-    height: 1050px;
+    width: 1060px;
+    height: 1060px;
     
     border-width: 2px;
     border-style: dotted;
