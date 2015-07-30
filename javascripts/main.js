@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $(".js").click(function(){
      $(this).css( "background", "yellow" );
-     $(this).effect( "bounce", "slow" );
+     $(this).fadeOut( "slow" );
   });
-  confirm('1');
 });
