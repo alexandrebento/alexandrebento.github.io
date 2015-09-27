@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  $("#project_title").click(function(){
-     $(this).css( "color", "#FF0000" );
-     $(this).fadeOut( "slow" );
+  $(".earth").click(function(){
+  	 $(this).css("background","red");
+  	 $(this).css("box-shadow","0px 0px 10px red");
   });
 });
