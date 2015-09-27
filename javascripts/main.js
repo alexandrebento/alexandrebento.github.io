@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  $(".js").click(function(){
-     $(this).css( "background", "yellow" );
+  $(".earth").click(function(){
+     $(this).css( "color", "#FF0000" );
      $(this).fadeOut( "slow" );
   });
 });
