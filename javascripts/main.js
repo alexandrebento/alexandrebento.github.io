@@ -2,22 +2,18 @@ $(document).ready(
 function() {
   $(".earth").hover(
   function(){
-  	 $(this).css("background","#FF1E00");
-  	 $(this).css("box-shadow","0px 0px 10px red");
+  	 $(this).css("box-shadow","0px 0px 30px blue");
   },
   function(){
-     $(this).css("background","#FF1E00");
-     $(this).css("box-shadow","0px 0px 10px blue");
+     $(this).css("box-shadow","0px 0px 10px yellow");
   }
   );
   $(".satellite").hover(
   function(){
-     $(this).css("background","#FF1E00");
-  	 $(this).css("box-shadow","0px 0px 10px red");
+  	 $(this).css("box-shadow","0px 0px 30px blue");
   },
   function(){
-     $(this).css("background","#FF1E00");
-     $(this).css("box-shadow","0px 0px 10px blue");
+     $(this).css("box-shadow","0px 0px 1px white");
   }
   );
 });
