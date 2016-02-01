@@ -2,7 +2,7 @@ $(document).ready(
 function() {
   $(".earth").hover(
   function(){
-  	 $(this).css("box-shadow","0px 0px 50px blue");
+  	 $(this).css("box-shadow","0px 0px 150px blue");
   },
   function(){
      $(this).css("box-shadow","0px 0px 10px yellow");
