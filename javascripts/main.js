@@ -2,7 +2,7 @@ $(document).ready(
 function() {
   $(".earth").hover(
   function(){
-  	 $(this).css("box-shadow","0px 0px 150px blue");
+  	 $(this).css("box-shadow","0px 0px 100px blue");
   },
   function(){
      $(this).css("box-shadow","0px 0px 10px yellow");
@@ -10,7 +10,7 @@ function() {
   );
   $(".satellite").hover(
   function(){
-  	 $(this).css("box-shadow","0px 0px 50px blue");
+  	 $(this).css("box-shadow","0px 0px 25px red");
   },
   function(){
      $(this).css("box-shadow","0px 0px 1px white");
