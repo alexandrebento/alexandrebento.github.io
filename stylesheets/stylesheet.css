@@ -13,59 +13,60 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(0%, 0%);
-  -webkit-filter: drop-shadow(0px 0px 80px white);
+  -webkit-filter: drop-shadow(0px 0px 100px white);
 }
 
-.space{
-  -webkit-transform-style:preserve-3d;
-  -webkit-transform:rotateX(75deg);
-}
-
-.earth{
-  width:300px;
-  height:300px;
-  background:-webkit-linear-gradient(bottom right,orange 30%,yellow 50%);
-  border-radius:300px;
+#scene{
   position:absolute;
   left:0;right:0;margin:auto;
   top:500px;
   -webkit-transform-style:preserve-3d;
-  -webkit-transform:rotateX(-90deg);
-  -webkit-box-shadow:0px 0px 10px yellow;
+  -webkit-transform:rotateX(90deg);
 }
 
-.orbit{
-  width:500px;
-  height:500px;
-  border:3px dashed #CCC;
+#earth{
   border-radius:300px;
   position:absolute;
   left:0;right:0;margin:auto;
-  top:500px;
+  top:400px;
   -webkit-transform-style:preserve-3d;
-  -webkit-animation:orbit 20s linear infinite;
+  -webkit-transform:rotateX(-90deg);
+  -webkit-animation:earth 5s linear infinite;
 }
 
-.satellite{
-  width:40px;
-  height:40px;
-  background:-webkit-linear-gradient(bottom right,grey 15%,white 50%);
-  border-radius: 40px;
-  -webkit-box-shadow:0px 0px 1px white;
+#orbit1{
+  width:250px;
+  height:250px;
+  border: 1px solid rgba(2555,255,255,0.3);
+  opacity: 1;
+  border-radius:250px;
   position:absolute;
-  margin-top: 55px;
-  margin-left: 50px;
-  -webkit-transform:rotateX(-90deg);
-  z-index:1;
+  left:0;right:0;margin:auto;
+  top:400px;
   -webkit-transform-style:preserve-3d;
-  -webkit-animation:earth 20s linear infinite;
+  -webkit-animation:orbit1 11.7s linear infinite;
 }
-@-webkit-keyframes orbit
-{
-  0%{-webkit-transform:rotateZ(0deg);}
-  100%{-webkit-transform:rotateZ(360deg);}
+
+#orb1{
+  width:10px;
+  height:10px;
+  background-color: white;
+  opacity: 1;
+  border-radius:5px;
+  box-shadow: 0px 0px 10px deepskyblue;
+  position:absolute;
+  left:0;right:0;margin:auto;
+  top:-5px;
+  -webkit-transform-style:preserve-3d;
+  -webkit-animation:orb1 11.7s linear infinite;
 }
-@-webkit-keyframes earth{
-  0%{-webkit-transform:rotateX(-90deg) rotateY(0deg) rotateZ(0deg);}
-  100%{-webkit-transform:rotateX(-90deg) rotateY(360deg) rotateZ(0deg);}
+
+@-webkit-keyframes orbit1{
+  0%{-webkit-transform:rotateX(90deg) rotateY(0deg) rotateZ(0deg)}
+  100%{-webkit-transform:rotateX(90deg) rotateY(360deg) rotateZ(360deg)}
+}
+
+@-webkit-keyframes orb1{
+  0%{-webkit-transform: rotateZ(0deg) rotateY(0deg)}
+  100%{-webkit-transform:rotateZ(-360deg) rotateY(-360deg)}
 }
