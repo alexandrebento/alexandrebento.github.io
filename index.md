@@ -5,7 +5,7 @@ layout: default
 
 Aerospace engineer with 5 years of experience in the aircraft and spacecraft industries. Always open to challenging and exciting opportunities across industries.
 
-[Link to another page](blog).
+[Link to blog](blog).
 
 ## [](#header-2)Experience
 
