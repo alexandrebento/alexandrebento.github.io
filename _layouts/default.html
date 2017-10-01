@@ -36,12 +36,13 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           
-          {{ content }}
-          
           <hr>
           <span class="credits left">Website maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
           <span class="credits right">Hosted on GitHub &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
+        
+        {{ content }}
+        
       </section>
     </div>
 
