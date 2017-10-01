@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: pretty
 ---
 # [](#header-1)Alexandre Bento
 
