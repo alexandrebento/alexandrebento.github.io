@@ -1,5 +1,5 @@
 ---
 title: HOME
-permalink: mypageurl.html
+permalink: pretty
 ---
 # Aerospace engineer with proven skills in the aircraft and spacecraft industries.
