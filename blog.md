@@ -1,8 +1,9 @@
 ---
-title: Blog
+layout: default
 ---
-# text
-more text
+
+## Blog
+
 <ul>
   {% for post in site.posts %}
     <li>
@@ -10,3 +11,7 @@ more text
     </li>
   {% endfor %}
 </ul>
+
+_Blog under maintenance._
+
+[back](./)
