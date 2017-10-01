@@ -1,22 +1,17 @@
 ---
 layout: default
 ---
+# [](#header-1)Alexandre Bento
 
-# Header
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Aerospace engineer with 5 years of experience in the aircraft and spacecraft industries. Always open to challenging and exciting opportunities across industries.
 
 [Link to another page](blog).
 
-There should be whitespace between paragraphs.
+## [](#header-2)Experience
 
-## [](#header-2)Header 2
+> This section is under construction.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
+### [](#header-3)Example Code
 
 ```js
 // Javascript code with syntax highlighting.
@@ -33,7 +28,7 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### [](#header-4)Header 4
+#### [](#header-4)Table
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -42,29 +37,22 @@ end
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this
+### Horizontal Rule
 
 * * *
 
-### Here is an unordered list
+### Unordered List
 
 * Item foo
 * Item bar
 * Item baz
 * Item zip
 
-### And an ordered list
-
-1. Item one
-1. Item two
-1. Item three
-1. Item four
-
 ### Small image
 
 ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
 
-### Definition lists can be used with HTML syntax
+### Definition List
 
 <dl>
 <dt>Name</dt>
