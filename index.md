@@ -3,7 +3,8 @@ layout: default
 ---
 # [](#header-1)Alexandre Bento
 
-Aerospace engineer with 5 years of experience in the aircraft and spacecraft industries. Always open to challenging and exciting opportunities across industries.
+Aerospace engineer with 5 years of experience in the aircraft and spacecraft industries.
+Always open to challenging and exciting opportunities.
 
 [Link to blog](blog).
 
