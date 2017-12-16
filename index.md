@@ -14,7 +14,7 @@ Always open to challenging and exciting opportunities.
 
 ### [](#header-3)Satellogic S.A.
 
-#### Spacecraft Engineer (mechanical, thermal, and process engineering)
+#### Spacecraft Engineer (systems, thermal and mechanical engineering)
 
 ```text
 Responsible for spacecraft thermal modelling, analysis and design
@@ -27,7 +27,9 @@ Engaged in with spacecraft assembly, integration, calibration and qualification
 ```
 
 ### [](#header-3)Rapid Product Development Ltd.
+
 #### Mechanical and Product Design Engineer (product design and development)
+
 ```text
 Developed products and engineered design solutions based on customer input
 Used SolidWorks software to create detailed design models
@@ -35,26 +37,33 @@ Used SolidWorks software to create detailed design models
 
 ### [](#header-3)General Electric Aircraft Engine Services Ltd.
 
+#### Undergraduate Placement Engineer (repair, propulsion and production engineering)
+
 ```text
-details
+Involved with component repair techniques and special workshop processes including
+machining, welding and heat treatment
+Accountable for repair development including regulatory data and customer processes
+Worked within a propulsion engineering team with focus on engine systems, work
+scopes, module/engine build and test procedures
+Additional functions involved defect investigation and hardware strip reviews
+Awarded three GE Wales ‘Great People’ Awards in recognition of the level of
+commitment and outstanding contribution to the engineering team
 ```
 
 #### [](#header-2)Technical Skills
 
-| Software     | Details           |
-|:-------------|:------------------|
-| ok           | good swedish fish |
-| out of stock | good and plenty   |
-| ok           | good `oreos`      |
-| ok           | good `zoute` drop |
+* Office: Word, Excel, and PowerPoint
+* Computed Aided Design: CATIA, SolidWorks, and SolidEdge
+* Finite Element Analysis: COMSOL, Abaqus, and Ansys
+* Computational Fluid Dynamics: Fluent
+* Programming: MATLAB, Python, VBA, HTML, CSS, and Javascript
+* Spacecraft: Satellite Tool Kit, and OMERE
+* Quick to learn new technologies
 
-### Horizontal Rule
 
-* * *
+#### [](#header-2)Languages
 
-### Unordered List
-
-* Item foo
-* Item bar
-* Item baz
-* Item zip
+* English (Fluent)
+* Portuguese (Fluent)
+* Spanish (Intermediate)
+* French (basic)
