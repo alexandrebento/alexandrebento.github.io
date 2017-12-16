@@ -6,11 +6,9 @@ layout: default
 Aerospace engineer with 5 years of experience in the aircraft and spacecraft industries.
 Always open to challenging and exciting opportunities.
 
-[Link to blog](blog).
+> This section is under construction.
 
 ## [](#header-2)Experience
-
-> This section is under construction.
 
 ### [](#header-3)Satellogic S.A.
 
@@ -39,16 +37,11 @@ Used SolidWorks software to create detailed design models
 
 #### Undergraduate Placement Engineer (repair, propulsion and production engineering)
 
-```text
-Involved with component repair techniques and special workshop processes including
-machining, welding and heat treatment
-Accountable for repair development including regulatory data and customer processes
-Worked within a propulsion engineering team with focus on engine systems, work
-scopes, module/engine build and test procedures
-Additional functions involved defect investigation and hardware strip reviews
-Awarded three GE Wales ‘Great People’ Awards in recognition of the level of
-commitment and outstanding contribution to the engineering team
-```
+* Involved with component repair techniques and special workshop processes including machining, welding and heat treatment
+* Accountable for repair development including regulatory data and customer processes
+* Worked within a propulsion engineering team with focus on engine systems, workscopes, module/engine build and test procedures
+* Additional functions involved defect investigation and hardware strip reviews
+* Awarded three GE Wales ‘Great People’ Awards in recognition of the level of commitment and outstanding contribution to the engineering team
 
 #### [](#header-2)Technical Skills
 
