@@ -12,31 +12,48 @@ Always open to challenging and exciting opportunities.
 
 > This section is under construction.
 
-### [](#header-3)Example Code
+<dl>
+<dt>Satellogic</dt>
+<dd>Aerospace Engineering</dd>
+<dt>Rapid Prototype Development</dt>
+<dd>Product Design</dd>
+<dt>General Electric Aviation</dt>
+<dd>Engines</dd>
+</dl>
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+### [](#header-3)Satellogic S.A.
+
+```text
+Spacecraft Engineer (mechanical, thermal, and process engineering)
+* Responsible for spacecraft thermal modelling, analysis and design
+* Developed data processing scripts for analysis of environmental scenarios
+* Designed thermal control system including hardware and operation processes
+* Carried out ionising radiation simulations for spacecraft missions
+* Supported mechanical decisions, detail design, research, and hardware procurement
+* Performed draughtsman tasks, created and maintained engineering drawings
+* Engaged in with spacecraft assembly, integration, calibration and qualification
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+### [](#header-3)Rapid Product Development Ltd.
+
+```text
+details
 ```
 
-#### [](#header-4)Table
+### [](#header-3)General Electric Aircraft Engine Services Ltd.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+```text
+details
+```
+
+#### [](#header-2)Technical Skills
+
+| Software     | Details           |
+|:-------------|:------------------|
+| ok           | good swedish fish |
+| out of stock | good and plenty   |
+| ok           | good `oreos`      |
+| ok           | good `zoute` drop |
 
 ### Horizontal Rule
 
@@ -48,28 +65,3 @@ end
 * Item bar
 * Item baz
 * Item zip
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Definition List
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```text
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```text
-The final element.
-```
