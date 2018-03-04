@@ -1,42 +1,61 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Optional meta tags -->
-    <meta name="description" content="Personal Website">
-    <meta name="author" content="Alexandre Bento">
-    <link rel="icon" href="favicon.ico">
-    <title>Alexandre Bento</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-  </head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Optional meta tags -->
+        <meta name="description" content="Personal Website">
+        <meta name="author" content="Alexandre Bento">
+        <link rel="icon" href="favicon.ico">
+        <title>Alexandre Bento</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+    </head>
 
-  <body class="text-center">
-    <div id="particles-js"></div>
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-          <div class="inner">
-            <h3 class="masthead-brand">Alexandre Bento</h3>
-            <nav class="nav nav-masthead justify-content-center">
-              <a class="nav-link active" href="#">Home</a>
-              <a class="nav-link" href="#">Experience</a>
-              <a class="nav-link" href="#">Contact</a>
-            </nav>
-          </div>
-        </header>
-  
-        <main role="main" class="inner cover">
-          <h1 class="cover-heading">Aerospace Engineer</h1>
-          <p class="lead">with experience and proven skills in the aircraft and spacecraft industries</p>
-          <p class="lead">
-            <a href="assets/Alexandre_Bento_Resume.pdf" class="btn btn-lg btn-secondary">Download curriculum</a>
-          </p>
-        </main>
-  
+    <body class="text-center">
+        <div id="particles-js"></div>
+        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+            <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand">Alexandre Bento</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-item nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                    <a class="nav-item nav-link" id="exp-tab" data-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">Experience</a>
+                    <a class="nav-item nav-link" id="cont-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                </nav>
+            </div>
+            </header>
+
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <main class="inner cover">
+                    <h1 class="cover-heading">Aerospace Engineer</h1>
+                    <p class="lead">with proven skills in the aircraft and spacecraft industries</p>
+                    <p class="lead">
+                        <a href="assets/Alexandre_Bento_Resume.pdf" class="btn btn-lg btn-secondary">Download curriculum</a>
+                    </p>
+                </main>
+            </div>
+            <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="exp-tab">
+                <main class="inner cover">
+                    <h1 class="cover-heading">5 Years of experience</h1>
+                    <p class="lead">in the aircraft and spacecraft industries</p>
+                </main>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="cont-tab">
+                <main class="inner cover">
+                    <h1 class="cover-heading">contact@alexandrebento.com</h1>
+                    <p class="lead">Feel free to contact any time!</p>
+                    <p class="lead">
+                        <a href="mailto:contact@alexandrebento.com" class="btn btn-lg btn-secondary">E-mail</a>
+                    </p>
+                </main>
+            </div>
+        </div>
+
         <footer class="mastfoot mt-auto">
           <div class="inner">
             <p>Built using <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://vincentgarreau.com/particles.js/">Particles.js</a></p>
