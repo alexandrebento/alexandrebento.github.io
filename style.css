@@ -4,7 +4,13 @@
 *:hover{
   pointer-events: none;
 }
-.nav-link, .btn, a, a:focus, a:hover, .sel{
+
+.nav-link,
+.btn,
+a,
+a:focus,
+a:hover,
+.sel{
   pointer-events: all;
 }
 
