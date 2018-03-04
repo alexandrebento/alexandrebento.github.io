@@ -106,9 +106,9 @@ body {
     margin-right: 7em;
     /* float: center; */
   }
-  .nav-masthead {
-    /* float: center; */
-  }
+  /* .nav-masthead {
+    float: center;
+  } */
   .masthead .inner {
     display: inline-flex;
     text-align:center;
