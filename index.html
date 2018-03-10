@@ -57,7 +57,7 @@
             </div>
             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="cont-tab">
                 <main class="inner cover">
-                    <h1 onclick="selectText(this.id)" id="emailtext" class="cover-heading sel">contact@alexandrebento.com</h1>
+                    <h1 onclick="modtooltip()" id="emailtext" class="cover-heading sel" data-clipboard-target="#address" onmouseleave="resettooltip()"><span class="tooltiptext" id="tooltip">Copy to clipboard</span><span id="address">contact@alexandrebento.com</span></h1>
                     <p class="lead">Feel free to contact any time!</p>
                     <p class="lead">
                         <a href="mailto:contact@alexandrebento.com" class="btn btn-lg btn-secondary"><i class="material-icons" style="font-size: 14px" !important>email</i> E-mail</a>
@@ -68,7 +68,7 @@
 
         <footer class="mastfoot mt-auto">
           <div class="inner">
-            <p><i class="material-icons" style="font-size: 12px" !important>favorite</i> built using <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://vincentgarreau.com/particles.js/">Particles.js</a> open source projects</p>
+            <p><i class="material-icons" style="font-size: 12px" !important>favorite</i> built using <a href="https://getbootstrap.com/">bootstrap</a>, <a href="https://vincentgarreau.com/particles.js/">particles.js</a> and <a href="https://clipboardjs.com/">clipboard.js</a>  open source projects</p>
           </div>
         </footer>
     </div>
@@ -80,6 +80,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
     <script src="particles.js"></script>
     <script src="select.js"></script>
 </body>

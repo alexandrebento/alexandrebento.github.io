@@ -1,7 +1,6 @@
-/*
- * Globals
- */
-*:hover{
+/* Globals */
+
+*:hover {
   pointer-events: none;
 }
 
@@ -10,7 +9,8 @@
 a,
 a:focus,
 a:hover,
-.sel{
+.sel,
+.tooltip{
   pointer-events: all;
 }
 
@@ -40,10 +40,7 @@ a:hover {
   border: .05rem solid #fff;
 }
 
-
-/*
- * Base structure
- */
+/* Base structure */
 
 html,
 body {
@@ -68,10 +65,7 @@ body {
   max-width: 42em;
 }
 
-
-/*
- * Header
- */
+/* Header */
 .masthead {
   margin-bottom: 2rem;
 }
@@ -115,10 +109,7 @@ body {
   }
 }
 
-
-/*
- * Cover
- */
+/* Cover */
 .cover {
   padding: 0 1.5rem;
 }
@@ -127,10 +118,48 @@ body {
   font-weight: 700;
 }
 
-
-/*
- * Footer
- */
+/* Footer */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+/* Copy tooltip */
+.sel {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px
+}
+
+.sel .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.sel:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
