@@ -1,26 +1,11 @@
 /* Globals */
 
-*:hover {
-  pointer-events: none;
-}
-
-.nav-link,
-.btn,
-a,
-a:focus,
-a:hover,
-.sel,
-.tooltip{
-  pointer-events: all;
-}
-
  /* particles */
  #particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index:-1;
-  pointer-events: all;
 }
 
 /* Links */
@@ -46,6 +31,7 @@ html,
 body {
   height: 100%;
   background-color: #111;
+  user-select: none;
 }
 
 body {
@@ -128,6 +114,7 @@ body {
   position: relative;
   display: inline-block;
   opacity: 1;
+  user-select: auto;
 }
 
 .tooltiptext {

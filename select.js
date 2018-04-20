@@ -3,7 +3,7 @@ function modtooltip(){
 }
 
 function resettooltip() {
-    document.getElementById("tooltip").innerHTML = "Copy to clipboard";
+    document.getElementById("tooltip").innerHTML = "Click to copy to clipboard";
     if (window.getSelection) {window.getSelection().removeAllRanges();}
     else if (document.selection) {document.selection.empty();}
 }
