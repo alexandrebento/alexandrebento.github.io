@@ -1,2 +1,2 @@
-# alexandrebento.github.com
+# alexandrebento.github.io
 http://www.alexandrebento.com
